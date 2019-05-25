@@ -1,9 +1,9 @@
-require "pry"
+# require "pry"
 
 def square_array(array)
-  new_array = []
   array.each do |num|
-    binding.pry
-    new_array = num
+    (num**2)
+    new_array += 1
+    # binding.pry
   end
 end
